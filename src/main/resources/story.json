@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "original": "USD",
+      "target": "RUB",
+      "userName": "Jo\u0027raboy",
+      "date": "2022-02-02 16:54:27",
+      "valuefrom": 1000.0,
+      "valueto": 77026.64197179086
+    },
+    {
+      "original": "RUB",
+      "target": "UZS",
+      "userName": "Jo\u0027raboy",
+      "date": "2022-02-02 16:54:48",
+      "valuefrom": 1.215456498E9,
+      "valueto": 2.073882169037009E20
+    }
+  ]
+]
