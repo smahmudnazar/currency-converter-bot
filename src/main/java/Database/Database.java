@@ -1,5 +1,6 @@
-package ForUser;
+package Database;
 
+import Model.Constants.Constant;
 import Model.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

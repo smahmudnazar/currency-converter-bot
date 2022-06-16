@@ -1,4 +1,4 @@
-package ForUser;
+package Model.Enums;
 
 public enum State {
     START,

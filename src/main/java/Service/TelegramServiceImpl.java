@@ -1,6 +1,10 @@
-package ForUser;
+package Service;
 
-import ForUser.Model.Currency;
+import Api.Api;
+import Database.Database;
+import Model.Constants.Constant;
+import Model.Currency;
+import Model.Enums.State;
 import Model.User;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
@@ -11,7 +15,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
-
+import Database.DatabseAdmin;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -95,7 +99,7 @@ public class TelegramServiceImpl implements TelegramService {
             user.setLastOperation(State.START.name());
 
 //            user.setUsername(!update.getMessage().getFrom().getUserName().isEmpty()
-//                    ? update.getMessage().getFrom().getUserName() : ForUser.Constant.NO_INFO);
+//                    ? update.getMessage().getFrom().getUserName() : Model.Constants.Constant.NO_INFO);
             user.setUsername(update.getMessage().getFrom().getUserName());
             Database.users.add(user);
             Database.map.putIfAbsent(Constant.USER, Collections.singletonList(Database.users));

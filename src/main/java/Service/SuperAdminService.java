@@ -1,4 +1,4 @@
-package ForUser;
+package Service;
 
 import Model.Password;
 import Model.User;

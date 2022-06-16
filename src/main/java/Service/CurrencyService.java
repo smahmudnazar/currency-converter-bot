@@ -1,7 +1,6 @@
-package ForUser;
+package Service;
 
-import ForUser.Model.Currency;
-import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
+import Model.Enums.Currencies;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup;
 import org.telegram.telegrambots.meta.api.objects.CallbackQuery;

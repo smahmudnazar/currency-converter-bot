@@ -1,4 +1,6 @@
-package ForUser;
+package Service;
+
+import Model.Enums.Currencies;
 
 import java.util.HashMap;
 import java.util.Map;

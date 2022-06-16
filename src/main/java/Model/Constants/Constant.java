@@ -1,4 +1,4 @@
-package ForUser;
+package Model.Constants;
 
 public interface Constant {
     String NO_INFO = "no information";

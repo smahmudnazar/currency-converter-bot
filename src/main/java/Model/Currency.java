@@ -1,4 +1,4 @@
-package ForUser.Model;
+package Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

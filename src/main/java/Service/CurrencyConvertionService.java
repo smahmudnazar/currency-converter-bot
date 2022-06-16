@@ -1,6 +1,7 @@
-package ForUser;
+package Service;
 
-import java.io.IOException;
+import Api.Api;
+import Model.Enums.Currencies;
 
 public interface CurrencyConvertionService {
     static double getConversionRatio(Currencies original, Currencies target, double value){

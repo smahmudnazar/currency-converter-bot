@@ -1,4 +1,4 @@
-package ForUser;
+package Model.Enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

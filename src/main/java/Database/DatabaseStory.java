@@ -1,17 +1,15 @@
-package ForUser;
+package Database;
 
+import Model.Constants.Constant;
 import Model.Story;
-import Model.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import lombok.SneakyThrows;
 
 import java.io.*;
 import java.util.*;
 
 public interface DatabaseStory {
-    //list map oqish yozish json un servislar
     Set<Story> story = new LinkedHashSet<>();
 
     Map<String, List> map = new HashMap<>();

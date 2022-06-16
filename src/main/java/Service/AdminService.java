@@ -1,6 +1,8 @@
-package ForUser;
+package Service;
 
-import ForUser.Model.Currency;
+import Api.Api;
+import Main.TelegramBot;
+import Model.Currency;
 import Model.Story;
 import Model.User;
 import com.google.common.reflect.TypeToken;
